@@ -102,6 +102,8 @@ public:
 	 * @param W number of words in the vocabulary
 	 */
 	void saveM(const std::string &filename, size_t W) const;
+
+	std::string ImageID;
 };
 
 } // namespace DBoW2
